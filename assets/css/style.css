@@ -3,7 +3,7 @@
 # Global Settings
 --------------------------------------------------------------*/
 
-@font-face {
+/* @font-face {
     font-family: 'Agustina';
     src: url('assets/fonts/Agustina.woff') format('woff');
 }
@@ -11,7 +11,22 @@
 @font-face {
     font-family: 'Dancing Script';
     src: url('assets/fonts/DancingScript-Medium.ttf') format('truetype');
+} */
+
+@font-face {
+    font-family: 'Agustina';
+    src: url('assets/fonts/Agustina.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
+
+@font-face {
+    font-family: 'Dancing Script';
+    src: url('assets/fonts/DancingScript-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 
 /* Global Variables */
@@ -55,7 +70,7 @@ a:hover{
     left: 0;
     width: 100%;
     height: 100%;
-    background: #000 url(/assets/images/dark-bg.webp) 50% no-repeat;
+    background: #000 url(assets/images/dark-bg.webp) 50% no-repeat;
     background-size: cover;
     filter: brightness(50%);
     -webkit-filter: brightness(50%);
